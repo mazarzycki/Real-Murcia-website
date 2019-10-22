@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Arbutus+Slab&display=swap');
 * {
     box-sizing: border-box;
     font-family: sans-serif;
@@ -7,13 +8,16 @@ html, body {
     margin: 0;
     padding: 0;
 }
+
 /* Header */
 .main-header {
     background-color: #ED0000;
     background-size: cover;
     padding-bottom: 10px;
 }
-
+.main-header-bottom {
+    display: flex;
+}
 /* Navigation */
 .nav ul {
     margin: 0;
@@ -39,12 +43,89 @@ html, body {
 .main-nav li {
     padding: 0 2%;
 }
+/*Header logo*/
+.header-club-logo img {
+    height: 150px;
+    margin: 0 20px 0 280px;
+}
+
 /* Club name */
 .club-name {
     text-align: center;
     margin: 0;
-    font-size: 4em;
-    /* font-family */
-    font-weight: normal;
+    font-size: 1em;
+    font-family: 'Arbutus Slab', serif;
+    font-weight: lighter;
     color: #fff;
 }
+.club-name-large {
+    font-size: 9em;
+}
+.container-photos {
+    display: flex;
+    overflow-x: auto;
+}
+.container-photos img {
+    margin-right: 0;
+    width: 200px;
+    height: auto;
+}
+.container-photos::-webkit-scrollbar {
+    display: none;
+}
+
+/*Section*/
+.content-section {
+    margin: 1em;
+    /*float: left;*/
+    }
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+.section-header {
+    font-family: sans-serif;
+    font-weight: normal;
+    color: #111111;
+    text-align: center;
+    font-size: 2.5em;
+}
+.about-club-logo {
+    float: left;
+    height: 200px;
+    width: auto;
+    margin-right: 20px;
+    border-radius: 20px;
+}
+/*Footer*/
+.main-footer {
+    background-color:#ED0000;
+    color: #fff;
+    padding: .25em 0;
+}
+.tickets {
+   text-decoration: none;
+   color: #fff;
+   font-size: 2em;
+}
+.tickets:hover {
+    background-color: rgba(255, 255, 255, .3);   
+}
+.address div{
+    margin-left: 10px;
+    padding: 0 30px;
+    color: #fff;
+}
+.main-footer-container {
+    display: flex;
+    align-items: center;
+}
+.main-footer-container ul {
+    flex-grow: 1;
+    text-align: right;
+}
+.footer-nav li {
+    padding: 0 .4em;
+}
+

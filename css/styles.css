@@ -128,4 +128,33 @@ html, body {
 .footer-nav li {
     padding: 0 .4em;
 }
-
+/*Games calendar*/
+.season-row {
+    border-bottom: 1px solid #000000;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+}
+.season-row:last-child {
+    border-bottom: none;
+}
+.season-item {
+    display: inline-block;
+    padding-right: .5em;
+}
+.season-date {
+    color: #000000;
+    font-weight: bold;
+    width: 15%;
+    
+}
+.season-game {
+    width: 65%;
+    color: #000000;
+    font-weight: bold;
+    padding: 0 120px;
+}
+.season-result {
+    width: 10%;
+    color: #000000;
+    font-weight: bold;
+}

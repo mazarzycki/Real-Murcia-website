@@ -141,20 +141,32 @@ html, body {
     display: inline-block;
     padding-right: .5em;
 }
+.season-matchday {
+    color: #000000;
+    font-weight: bold;
+    width: 11%; 
+    text-align: center; 
+}
 .season-date {
     color: #000000;
     font-weight: bold;
-    width: 15%;
-    
+    width: 12%; 
+    text-align: center;  
 }
 .season-game {
-    width: 65%;
+    width: 62%;
     color: #000000;
     font-weight: bold;
     padding: 0 120px;
+    text-align: center; 
 }
 .season-result {
     width: 10%;
     color: #000000;
     font-weight: bold;
+    text-align: center; 
+}    
+.video {
+    display: block;
+    margin: auto;
 }

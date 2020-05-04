@@ -4,52 +4,70 @@
     font-family: sans-serif;
     color: #777;
 }
-html, body {
+
+html,
+body {
     margin: 0;
     padding: 0;
 }
 
+
 /* Header */
+
 .main-header {
     background-color: #ED0000;
     background-size: cover;
     padding-bottom: 10px;
 }
+
 .main-header-bottom {
     display: flex;
 }
+
+
 /* Navigation */
+
 .nav ul {
     margin: 0;
 }
+
 .nav li {
     display: inline;
 }
+
 .nav a {
     display: inline-block;
     padding: 1em;
     color: #fff;
     text-decoration: none;
 }
+
 .nav a:hover {
     background-color: rgba(255, 255, 255, .3);
 }
+
 .main-nav {
     text-align: center;
     font-size: 1.1em;
     font-weight: lighter;
     border-bottom: 1px solid rgba(255, 255, 255, .3);
 }
+
 .main-nav li {
     padding: 0 2%;
 }
+
+
 /*Header logo*/
+
 .header-club-logo img {
     height: 150px;
     margin: 0 20px 0 280px;
 }
 
+
 /* Club name */
+
 .club-name {
     text-align: center;
     margin: 0;
@@ -58,32 +76,40 @@ html, body {
     font-weight: lighter;
     color: #fff;
 }
+
 .club-name-large {
     font-size: 9em;
 }
+
 .container-photos {
     display: flex;
     overflow-x: auto;
 }
+
 .container-photos img {
     margin-right: 0;
     width: 200px;
     height: auto;
 }
+
 .container-photos::-webkit-scrollbar {
     display: none;
 }
 
+
 /*Section*/
+
 .content-section {
     margin: 1em;
     /*float: left;*/
-    }
+}
+
 .container {
     max-width: 1000px;
     margin: 0 auto;
     padding: 0 1.5em;
 }
+
 .section-header {
     font-family: sans-serif;
     font-weight: normal;
@@ -91,6 +117,7 @@ html, body {
     text-align: center;
     font-size: 2.5em;
 }
+
 .about-club-logo {
     float: left;
     height: 200px;
@@ -98,82 +125,105 @@ html, body {
     margin-right: 20px;
     border-radius: 20px;
 }
+
+
 /*Footer*/
+
 .main-footer {
-    background-color:#ED0000;
+    background-color: #ED0000;
     color: #fff;
     padding: .25em 0;
 }
+
 .tickets {
-   text-decoration: none;
-   color: #fff;
-   font-size: 2em;
+    text-decoration: none;
+    color: #fff;
+    font-size: 2em;
 }
+
 .tickets:hover {
-    background-color: rgba(255, 255, 255, .3);   
+    background-color: rgba(255, 255, 255, .3);
 }
-.address div{
+
+.address div {
     margin-left: 10px;
     padding: 0 30px;
     color: #fff;
 }
+
 .main-footer-container {
     display: flex;
     align-items: center;
 }
+
 .main-footer-container ul {
     flex-grow: 1;
     text-align: right;
 }
+
 .footer-nav li {
     padding: 0 .4em;
 }
+
+
 /*Games calendar*/
+
 .season-row {
     border-bottom: 1px solid #000000;
     padding-bottom: 1em;
     margin-bottom: 1em;
 }
+
 .season-row:last-child {
     border-bottom: none;
 }
+
 .season-item {
     display: inline-block;
     padding-right: .5em;
 }
+
 .season-matchday {
     color: #000000;
     font-weight: bold;
-    width: 11%; 
-    text-align: center; 
+    width: 11%;
+    text-align: center;
 }
+
 .season-date {
     color: #000000;
     font-weight: bold;
-    width: 12%; 
-    text-align: center;  
+    width: 12%;
+    text-align: center;
 }
+
 .season-game {
     width: 62%;
     color: #000000;
     font-weight: bold;
     padding: 0 120px;
-    text-align: center; 
+    text-align: center;
 }
+
 .season-result {
     width: 10%;
     color: #000000;
     font-weight: bold;
-    text-align: center; 
-}    
+    text-align: center;
+}
+
 .video {
     display: block;
     margin: auto;
 }
+
+
 /*Store*/
+
 .shop-item {
     margin: 30px;
 }
+
 .shop-item-title {
     display: block;
     width: 100%;
@@ -182,28 +232,36 @@ html, body {
     color: #333;
     margin-bottom: 15px;
 }
+
 .shop-item-image {
     height: 250px;
 }
+
 .shop-item-details {
     display: flex;
     align-items: center;
     padding: 5px;
 }
+
 .shop-item-price {
     flex-grow: 1;
 }
+
 .shop-items {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 }
+
+
 /*Cart*/
+
 .cart-header {
     font-weight: bold;
     font-size: 1.2em;
     color: #333;
 }
+
 .cart-column {
     display: flex;
     align-items: center;
@@ -212,31 +270,38 @@ html, body {
     padding-bottom: 10px;
     margin-top: 10px;
 }
+
 .cart-row {
     display: flex;
 }
+
 .cart-item {
     width: 45%;
 }
+
 .cart-price {
-    width:20%;
+    width: 20%;
     font-size: 1.2em;
     color: #333;
 }
+
 .cart-quantity {
     width: 35%;
 }
+
 .cart-item-title {
     color: #333;
     margin-left: 0.5em;
     font-size: 1.2em;
 }
+
 .cart-item-image {
     width: 75px;
     height: auto;
     border-radius: 10px;
     border: 1px solid #000;
 }
+
 .btn-danger {
     color: #fff;
     background-color: darkblue;
@@ -244,9 +309,11 @@ html, body {
     border-radius: .3em;
     font-weight: bold;
 }
+
 .btn-danger:hover {
     background-color: tomato;
 }
+
 .cart-quantity-input {
     height: 34px;
     width: 50px;
@@ -259,31 +326,38 @@ html, body {
     font-size: 1.2em;
     margin-right: 15px;
 }
+
 .cart-row:last-child {
     border-bottom: 1px solid #000;
 }
-.cart-row:last-child .cart-column{
+
+.cart-row:last-child .cart-column {
     border-bottom: none;
 }
+
 .cart-total {
     text-align: end;
     font-size: 1.2em;
 }
+
 .cart-total-title {
     font-weight: bold;
     margin-right: 20px;
 }
+
 .btn-purchase {
     display: block;
     margin: 40px auto 80px auto;
     font-size: 1.7em;
 }
+
 .btn {
     text-align: center;
     vertical-align: middle;
     padding: .7em;
     cursor: pointer;
 }
+
 .btn-primary {
     color: #fff;
     background-color: teal;
@@ -291,6 +365,7 @@ html, body {
     border: none;
     font-weight: bold;
 }
+
 .btn-primary:hover {
-    background-color:#ED0000;
+    background-color: #ED0000;
 }
